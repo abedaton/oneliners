@@ -13,11 +13,11 @@ For example, you can create a `calculator` that can be imported and used. Do not
 This project does not accept codes where only newlines or spaces were remove.
 It also does not accept codes where a simple character was added to prevent going to a new line.
 For example:
-~~~
+~~~py
 import random; random.randint(0, 10)
 ~~~
 is not the correct way in one line, but:
-~~~
+~~~py
 __import__("random").randint(0, 10)
 ~~~
 is !
