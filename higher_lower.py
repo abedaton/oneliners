@@ -1,0 +1,1 @@
+n=__import__("random").randint(1,99);[(lambda a:print('Y' if a==n else 'H' if a>n else 'L'))(int(input())) for i in range(6)]
