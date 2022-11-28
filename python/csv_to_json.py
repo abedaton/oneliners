@@ -1,0 +1,1 @@
+print(__import__("json").dumps(list(__import__("csv").reader(open('csv_file.csv')))))
